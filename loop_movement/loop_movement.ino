@@ -59,70 +59,7 @@ void loop()
     servoTrigger.write(angleTrigger);           
     delay(15);       
   }
-  /*
-  // scan from 45 to 90 degrees
-  for(angleLarge = 90; angleLarge < 135; angleLarge++)  
-  {                                  
-    servoLarge.write(angleLarge);               
-    delay(35);                   
-  } 
-  delay(250);
-
-  // Trigger sweep 90 degrees
-    for(angleTrigger = 25; angleTrigger < 120; angleTrigger++)  
-  {                                  
-    servoTrigger.write(angleTrigger);               
-    delay(15);                   
-  } 
-    // Scan back trigger
-    for(angleTrigger = 120; angleTrigger > 25; angleTrigger--)    
-  {                                
-    servoTrigger.write(angleTrigger);           
-    delay(15);       
-  }
-
-  // now scan back from 90 to 45 degrees
-  for(angleLarge = 135; angleLarge > 90; angleLarge--)    
-  {                                
-    servoLarge.write(angleLarge);           
-    delay(35);       
-  }
-  delay(250);
- 
-  // Trigger sweep 90 degrees
-    for(angleTrigger = 25; angleTrigger < 120; angleTrigger++)  
-  {                                  
-    servoTrigger.write(angleTrigger);               
-    delay(15);                   
-  } 
-    // Scan back trigger
-    for(angleTrigger = 120; angleTrigger > 25; angleTrigger--)    
-  {                                
-    servoTrigger.write(angleTrigger);           
-    delay(15);       
-  }
-
-  // now scan back from 90 to 45 degrees
-  for(angleLarge = 90; angleLarge > 45; angleLarge--)    
-  {                                
-    servoLarge.write(angleLarge);           
-    delay(35);       
-  }
-    delay(250);
-    
-  // Trigger sweep 90 degrees
-    for(angleTrigger = 25; angleTrigger < 120; angleTrigger++)  
-  {                                  
-    servoTrigger.write(angleTrigger);               
-    delay(15);                   
-  } 
-    // Scan back trigger
-    for(angleTrigger = 120; angleTrigger > 25; angleTrigger--)    
-  {                                
-    servoTrigger.write(angleTrigger);           
-    delay(15);       
-  }
-  */
+  
   delay(5000);          //delay
 //  exit();
   
